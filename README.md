@@ -270,7 +270,7 @@ Here are some additional resources that you may find useful:
 - **[Splunk](https://www.splunk.com)**: The most professional software to search, monitor, and analyse log data. Widely used for log management and operational intelligence.
 - **[OSSEC](https://www.ossec.net)**: Open-source Host Intrusion Detection System (HIDS) that provides log analysis, file integrity checking, and real-time alerts.
 - **[Snort](https://www.snort.org)**: Open-source Network Intrusion Detection System (NIDS) that inspects real-time traffic to detect and prevent attacks.
-- **[NetinVM](https://informatica.uv.es/~carlos/ns/netinvm/)**: Pre-configured virtual machine environment with a set of multiple virtual machines in a 3-legged dmz network topology.
+- **[NetinVM](https://informatica.uv.es/~carlos/docencia/netinvm/)**: Pre-configured virtual machine environment with a set of multiple virtual machines in a 3-legged dmz network topology.
 - **[ModSecurity](https://modsecurity.org)**: Open source, cross-platform web application firewall (WAF) module
 - **[Emerging Threats](https://rules.emergingthreats.net)**: Provides reliable rules for emerging threats, which are compatible with various NIDS/NIPS and firewalls.
 
