@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
-    <img src="images/logo.png" alt="Logo" width="30%">
+    <img src="images/logo.png" alt="Logo" width="35%">
   </a>
   <h3 align="center">SIEM Project with Splunk, Snort and Ossec</h3>
 
@@ -68,11 +68,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 🔎 About The Project <a id="about-the-project"></a>
+<div align="center">
   <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
-    <img src="images/topology.jpg" alt="Logo" width="100%">
+    <img src="images/topology.jpg" alt="Logo" width="30%">
   </a>
+</div>
   <p align="justify">
-  This project was conceived for the purpose of investigating in detail, how a Security Information and Event Management (SIEM) system works with regards to the processes that one would need to carry out in order to build one from scratch. In this project, I used Snort, as the network intruder detection system (NIDS); OSSEC, as the host intrusion detection system (HIDS); and central log management with Splunk. The setup of the configuration settings of these applications was usually not well clarified by available internet resources which made me want to come up with my own how-to manual. The purpose of this guide is to create an interesting laboratory in order to imitate a professional SIEM with a well documented guide, as the technical documentation of the tools used is not the most comprehensive.
+    This project was conceived for the purpose of investigating in detail, how a Security Information and Event Management (SIEM) system works with regards to the processes that one would need to carry out in order to build one from scratch. In this project, I used Snort, as the network intruder detection system (NIDS); OSSEC, as the host intrusion detection system (HIDS); and central log management with Splunk. The setup of the configuration settings of these applications was usually not well clarified by available internet resources which made me want to come up with my own how-to manual. The purpose of this guide is to create an interesting laboratory in order to imitate a professional SIEM with a well documented guide, as the technical documentation of the tools used is not the most comprehensive.
   </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,9 +123,11 @@
 #### 💻 NetinVm <a id="netinvm"></a>
 NetinVm, a VMWare machine, was selected because of its user-friendly capability to create isolated environments, being perfect for testing and educational purposes, which also doesn't affect actual systems. Being able to host multiple virtual machines allows extensive network simulations, which is essential for this laboratory arrangement, notably employing a 3-legged DMZ network design.
   - **Network Topology**:
+<div align="center">
     <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
-      <img src="images/net_topology.png" alt="netinvm_topology" width="100%">
+      <img src="images/net_topology.png" alt="netinvm_topology" width="60%">
     </a>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,9 +147,11 @@ NetinVm, a VMWare machine, was selected because of its user-friendly capability 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🖧 Topology <a id="topology"></a>
+<div align="center">
   <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
-    <img src="images/topology.png" alt="Logo" width="100%">
+    <img src="images/topology.png" alt="Logo" width="30%">
   </a>
+</div>
 
 #### **1. DMZ (Demilitarized Zone):** 
   - **dmza (Web Server + WAF + OSSEC):**
