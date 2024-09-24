@@ -242,21 +242,21 @@ It's a long configuration if you don't have clear what you have to do, but with 
 To enhance the functionality of the project, consider integrating **Splunk SOAR**. Splunk SOAR can be used to orchestrate workflows that automate incident responses and analyse data related to specific security events and incidents. For detailed installation and integration instructions, refer to the guide.
 
 ---
-
 #### Snort Improvements
 ##### 1. PulledPork3:
-   Utilising PulledPork3 can improve Snort3 rule management. For installation and configuration details, including how to use Emerging Threat rules, please consult the guide.
+Utilising PulledPork3 can improve Snort3 rule management. For installation and configuration details, including how to use Emerging Threat rules, please consult the guide.
 
 ##### 2. OpenAppID:
-   Implementing OpenAppID can enable Snort to detect applications like Facebook and Reddit within the network. For setup instructions and configuration steps, refer to the guide.
+Implementing OpenAppID can enable Snort to detect applications like Facebook and Reddit within the network. For setup instructions and configuration steps, refer to the guide.
 
 #### 3.Emerging Threats Rules:
-   The website [Emerging Threats](https://rules.emergingthreats.net) provides excellent rules for emerging threats, supplied by ProofPoint. These rules are compatible with various systems, including NIDS/NIPS (like Suricata and Snort) and firewalls (such as iptables, PF, PIX, and IPF).
-   Additionally, Snort rules need to be converted to Snort 3 format using the command:
-    ```bash
-      snort2lua -c in.rules -r out.rules
-    ```
+The website [Emerging Threats](https://rules.emergingthreats.net) provides excellent rules for emerging threats, supplied by ProofPoint. These rules are compatible with various systems, including NIDS/NIPS (like Suricata and Snort) and firewalls (such as iptables, PF, PIX, and IPF).
 
+Additionally, Snort rules need to be converted to Snort 3 format using the command:
+```bash
+snort2lua -c in.rules -r out.rules
+```
+    
 Incorporating these improvements can significantly enhance the detection capabilities of your Snort installation and the overall effectiveness, making it more effective as a Security Operations Centre (SOC).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
