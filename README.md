@@ -255,7 +255,7 @@ Utilising PulledPork3 can improve Snort3 rule management. For installation and c
 ##### 2. OpenAppID:
 Implementing OpenAppID can enable Snort to detect applications like Facebook and Reddit within the network. For setup instructions and configuration steps, refer to the guide.
 
-#### 3.Emerging Threats Rules:
+##### 3.Emerging Threats Rules:
 The website [Emerging Threats](https://rules.emergingthreats.net) provides excellent rules for emerging threats, supplied by ProofPoint. These rules are compatible with various systems, including NIDS/NIPS (like Suricata and Snort) and firewalls (such as iptables, PF, PIX, and IPF).
 
 Additionally, Snort rules need to be converted to Snort 3 format using the command:
