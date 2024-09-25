@@ -88,34 +88,34 @@
 
 ### ✨ Features <a id="features"></a>
 1. **Complete SIEM Configuration**:
-  - Integrates Splunk (log management), Snort (NIDS), and OSSEC (HIDS) to provide a comprehensive security monitoring solution.
+Integrates Splunk (log management), Snort (NIDS), and OSSEC (HIDS) to provide a comprehensive security monitoring solution.
 
 2. **Practical Configuration Guide**:
-  - Fills up frequent documentation gaps by offering thorough, detailed instructions to configure each tool.
+Fills up frequent documentation gaps by offering thorough, detailed instructions to configure each tool.
 
 3. **Real-Time Monitoring**:
-  - Real-time alerts and active response to anomalous behaviours with the use of Snort for network-based intrusion detection and OSSEC for host-based monitoring.
+Real-time alerts and active response to anomalous behaviours with the use of Snort for network-based intrusion detection and OSSEC for host-based monitoring.
 
 4. **Centralised Log Management**:
-  - Offers a consolidated, configurable overview of security events by combining and analysing logs from various sources using Splunk.
+Offers a consolidated, configurable overview of security events by combining and analysing logs from various sources using Splunk.
 
 5. **ModSecurity Integration**:
-  - Implementing ModSecurity module, a Web Application Firewall (WAF), in the Apache web server in order to improve the security against web threats.
+Implementing ModSecurity module, a Web Application Firewall (WAF), in the Apache web server in order to improve the security against web threats.
 
 6. **Testing Capabilities**:
-  - Testing the intrusion detection systems (IDS) detection and active response with multiple tests, consisting of: TestmyNIDS script, brute force, and web pentesting.
+Testing the intrusion detection systems (IDS) detection and active response with multiple tests, consisting of: TestmyNIDS script, brute force, and web pentesting.
 
 7. **Customisable Environment**:
-  - Configured in a controlled virtual environment (NetinVm), enabling experimentation and simple adjustments without interfering with operational systems.
+Configured in a controlled virtual environment (NetinVm), enabling experimentation and simple adjustments without interfering with operational systems.
 
 8. **Automation and Workflow Orchestration**:
-  - Examines how to automate response to incident processes using Splunk SOAR, hence boosting security operations efficiency.
+Examines how to automate response to incident processes using Splunk SOAR, hence boosting security operations efficiency.
 
 9. **Educational Resource**:
-  - Offers practical guidance on how to configure your own SIEM, making it a useful tool for professionals and students interested in.
+Offers practical guidance on how to configure your own SIEM, making it a useful tool for professionals and students interested in.
 
 10. **Visual Documentation**:
-  - Showcases configurations and the functionality of the system with screenshots and logs.
+Showcases configurations and the functionality of the system with screenshots and logs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -277,7 +277,8 @@ Here are some additional resources that you may find useful:
 - **[OSSEC](https://www.ossec.net)**: Open-source Host Intrusion Detection System (HIDS) that provides log analysis, file integrity checking, and real-time alerts.
 - **[Snort](https://www.snort.org)**: Open-source Network Intrusion Detection System (NIDS) that inspects real-time traffic to detect and prevent attacks.
 - **[NetinVM](https://informatica.uv.es/~carlos/docencia/netinvm/)**: Pre-configured virtual machine environment with a set of multiple virtual machines in a 3-legged dmz network topology.
-- **[ModSecurity](https://modsecurity.org)**: Open source, cross-platform web application firewall (WAF) module
+- **[ModSecurity](https://modsecurity.org)**: Open source, cross-platform web application firewall (WAF) module.
+- **[TestmyNIDS](https://github.com/3CORESec/testmynids.org)**: Github script that tests the reliability of your NIDS.
 - **[Emerging Threats](https://rules.emergingthreats.net)**: Provides reliable rules for emerging threats, which are compatible with various NIDS/NIPS and firewalls.
 
 ### ✅ Security Best Practices
