@@ -154,22 +154,22 @@ NetinVm, a VMWare machine, was selected because of its user-friendly capability 
 </div>
 
 #### **1. DMZ (Demilitarized Zone):** 
-  - **dmza (Web Server + WAF + OSSEC):**
+  - **`dmza` (Web Server + WAF + OSSEC):**
     - **Web Server:** Located in the DMZ to deal with incoming web traffic. The Web Application Firewall (WAF) adds an additional level of security against common web-based risks (e.g., SQL injection, XSS).
     - **OSSEC:** Acts as a Host Intrusion Detection System (HIDS) for the web server, keeping track of file integrity, log events, and preventing unauthorised access attempts.
 
-  - **dmzc (OSSEC Server + Snort NIDS):**
+  - **`dmzc` (OSSEC Server + Snort NIDS):**
     - **Snort NIDS:** Deployed as a Network Intrusion Detection System (NIDS) inside the DMZ, inspecting traffic between the external network and the DMZ, and also internal communication within DMZ segments. It changes firewall rules dynamically (e.g., via iptables) to block or allow traffic based on threat detection.
     - **OSSEC Server:** Centralised control and evaluation of all OSSEC agents, including the one located in the DMZ (`dmza`) and internal network (`inta`, `intb`). The OSSEC server gathers logs, evaluates rules, and forwards log data to Splunk.
 
 #### **2. Internal Network:**
-  - **inta, intb (OSSEC):**
+  - **`inta`, `intb` (OSSEC):**
     - **OSSEC:** Provides HIDS for internal servers or workstations, monitoring for illegal access, malware, and other dangers. Logs from these internal systems are delivered to Splunk for correlation and analysis.
 
-  - **intc (Splunk):**
+  - **`intc` (Splunk):**
     - **Splunk:** Gathers and processes logs from Snort, OSSEC, and other network devices (via the Universal Forwarder). It delivers an overall overview of security events throughout your whole infrastructure.
 
-#### **3. External Network - Attacker (exta):**
+#### **3. External Network - Attacker (`exta`):**
    - **Threat Source:** Represents outside threats seeking to break into your network security. Snort in `dmzc` will identify and potentially stop these attempts, while the WAF in `dmza` defends the web server from web-specific attacks. Also these devices are also protected by Ossec(HIDS).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
