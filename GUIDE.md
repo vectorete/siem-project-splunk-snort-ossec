@@ -135,7 +135,9 @@ Before starting with the installation, we will need to allow the server communic
 ```bash
 iptables -A FORWARD -p udp -s 10.5.2.0/24 --dport 1514 -j ACCEPT
 iptables -A FORWARD -p udp -s 10.5.1.12 --sport 1514 -j ACCEPT
+```
 And we will make the changes persistent with:
+```bash
 iptables-save > /etc/iptables/rules.v4
 ```
 ## Initial Steps - Server Set Up (`dmzc`)
