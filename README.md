@@ -17,7 +17,7 @@
   <h3 align="center">SIEM Project with Splunk, Snort and Ossec</h3>
 
   <p align="center">
-    This project aims to establish a robust security monitoring laboratory to analyze and respond to various security incidents using tools like Splunk Enterprise, Splunk Universal Forwarder, Snort, and TestmyNIDS within a controlled environment. The lab will also utilize NetinVm for its virtualization capabilities, providing a flexible and isolated testing ground.
+    This project aims to establish a robust security monitoring laboratory to analyze and respond to various security incidents using tools like Splunk Enterprise, Splunk Universal Forwarder, Snort, and TestmyNIDS within a controlled environment. The lab will also utilize NETinVM for its virtualization capabilities, providing a flexible and isolated testing ground.
     <br />
     <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec"><strong>Explore the docs »</strong></a>
     <br />
@@ -42,7 +42,7 @@
         <li>
           <a href="#environment">💿 Environment</a>
           <ul>
-            <li><a href="#netinvm">💻 NetinVM</a></li>
+            <li><a href="#netinvm">💻 NETinVM</a></li>
             <li><a href="#tools">🧰 Tools</a></li>
           </ul>
         </li>
@@ -106,7 +106,7 @@ Implementing ModSecurity module, a Web Application Firewall (WAF), in the Apache
 Testing the intrusion detection systems (IDS) detection and active response with multiple tests, consisting of: TestmyNIDS script, brute force, and web pentesting.
 
 7. **Customisable Environment**:
-Configured in a controlled virtual environment (NetinVm), enabling experimentation and simple adjustments without interfering with operational systems.
+Configured in a controlled virtual environment (NETinVM), enabling experimentation and simple adjustments without interfering with operational systems.
 
 8. **Automation and Workflow Orchestration**:
 Examines how to automate response to incident processes using Splunk SOAR, hence boosting security operations efficiency.
@@ -120,8 +120,8 @@ Showcases configurations and the functionality of the system with screenshots an
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 💿 Environment <a id="environment"></a>
-#### 💻 NetinVm <a id="netinvm"></a>
-NetinVm, a VMWare machine, was selected because of its user-friendly capability to create isolated environments, being perfect for testing and educational purposes, which also doesn't affect actual systems. Being able to host multiple virtual machines allows extensive network simulations, which is essential for this laboratory arrangement, notably employing a 3-legged DMZ network design.
+#### 💻 NETinVM <a id="netinvm"></a>
+NETinVM, a VMWare machine, was selected because of its user-friendly capability to create isolated environments, being perfect for testing and educational purposes, which also doesn't affect actual systems. Being able to host multiple virtual machines allows extensive network simulations, which is essential for this laboratory arrangement, notably employing a 3-legged DMZ network design.
   - **Network Topology**:
 <div align="center">
     <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
@@ -200,7 +200,7 @@ To configure the environment, follow `GUIDE.md`. This section will be a summary 
 ### 📥 Installation <a id="installation"></a>
 1. **Download VMware**:
     - Download it from the [Website](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro); you will need an account.
-2. **Download NetinVM and add the Virtual Machine to VMware**:
+2. **Download NETinVM and add the Virtual Machine to VMware**:
     ```bash
     wget https://informatica.uv.es/~carlos/ns/netinvm/netinvm_2022-12-29_vmware.zip
     ```
@@ -276,7 +276,7 @@ Here are some additional resources that you may find useful:
 - **[Splunk](https://www.splunk.com)**: The most professional software to search, monitor, and analyse log data. Widely used for log management and operational intelligence.
 - **[OSSEC](https://www.ossec.net)**: Open-source Host Intrusion Detection System (HIDS) that provides log analysis, file integrity checking, and real-time alerts.
 - **[Snort](https://www.snort.org)**: Open-source Network Intrusion Detection System (NIDS) that inspects real-time traffic to detect and prevent attacks.
-- **[NetinVM](https://informatica.uv.es/~carlos/docencia/netinvm/)**: Pre-configured virtual machine environment with a set of multiple virtual machines in a 3-legged dmz network topology.
+- **[NETinVM](https://informatica.uv.es/~carlos/docencia/netinvm/)**: Pre-configured virtual machine environment with a set of multiple virtual machines in a 3-legged dmz network topology.
 - **[ModSecurity](https://modsecurity.org)**: Open source, cross-platform web application firewall (WAF) module.
 - **[TestmyNIDS](https://github.com/3CORESec/testmynids.org)**: Github script that tests the reliability of your NIDS.
 - **[Emerging Threats](https://rules.emergingthreats.net)**: Provides reliable rules for emerging threats, which are compatible with various NIDS/NIPS and firewalls.
