@@ -332,4 +332,4 @@ Project Link: [https://github.com/vectorete/siem-project-splunk-snort-ossec](htt
 [license-shield]: https://img.shields.io/github/license/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
 [license-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/vectorete
+[linkedin-url]: https://linkedin.com/in/victorkvor
