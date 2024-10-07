@@ -245,7 +245,15 @@ It's a long configuration if you don't have clear what you have to do, but with 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🔧 Possible Improvements <a id="possible-improvements"></a>
+#### Security Orchestration Automation and Response (SOAR)
 To enhance the functionality of the project, consider integrating **Splunk SOAR**. Splunk SOAR can be used to orchestrate workflows that automate incident responses and analyse data related to specific security events and incidents. For detailed installation and integration instructions, refer to the guide.
+
+#### Antivirus
+Deploying an antivirus solution on each machine can further strengthen security by providing an additional security layer with real-time threat detection and prevention. Complementing the SIEM's logging and alerting capabilities, we will have proactive and reactive measures against malware.
+
+For Windows, it is recommended Microsoft Defender, which has greatly improved over the past few years, evolving from a basic antivirus solution to a complete endpoint protection tool.
+
+For Linux, it is recommended Sophos Endpoint, which has robust features, a low system footprint, and integration with central management consoles.
 
 ---
 #### Snort Improvements
